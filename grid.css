@@ -1,0 +1,150 @@
+body{
+    background-color: black;
+    color: orangered;
+    color: black;
+    display: flexbox;
+}
+.navbar{
+    background-color:rgb(201, 19, 19);
+    width: 100%;
+    height: 70px;
+    float: right;
+}
+.navbar ul{
+    list-style-type: none;
+    text-align: right;
+    margin: 0px;
+    image-orientation: left;
+    background-image: url(asmara.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 70px;
+
+    
+}
+.navbar ul li{
+    display: inline-block;
+    margin-top: 28px;
+    
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    padding: 60px;
+    color: mintcream;
+
+}
+.navbar ul li a:hover{
+    color:lightgray;
+}
+.img{
+    margin-top: 0 ;
+    height: 70px;
+
+}
+h2{
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#content{
+    display: grid;
+    /*grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-columns: 1fr 1fr 1fr;*/
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: 200px;
+    grid-auto-rows:minmax(200px,auto) ;
+    /*grid-column-gap: 10px;
+    grid-row-gap: 10px;*/
+    grid-gap: 5px;
+    grid-template-rows: repeat(4,minmax(200px,auto));
+    max-width: 99.9%;
+    margin:0 auto;
+    color: whitesmoke;
+    
+}
+.a{
+    grid-column: 1/span 4;
+}
+    .simple-ss {
+        width: 100%;
+        height: 500px;
+        background-color: #eeeeee;
+        margin: auto;
+        animation-name: slide;
+        animation-duration: 10s;
+        animation-direction: alternate-reverse;
+        animation-timing-function: ease;
+        animation-iteration-count: infinite;
+      }
+      @keyframes slide {
+        0% {
+          background-position: 0 0;
+          background-image: url(nyama\ choma.jpg);
+        }
+        1616.66%{
+          background-position: 0 0;
+          background-image: url(pizza.jpg);
+
+        }
+        33.32% {
+          background-position: 800px 0;
+          background-image: url(shimp.jpg);
+
+        }
+        49.98% {
+          background-position:800px 0;
+          background-image: url(shimp.jpg);
+        }
+        66.64% {
+          background-position: 1600px 0;
+          background-image: url(salad.webp);
+
+        }
+        83.30% {
+          background-position: 1600px 0;
+          background-image: url(salad.webp);
+
+        }
+        100% {
+          background-position: 0 0;
+          background-image: url(drinks.jpg);
+
+        }
+    
+}
+.b{
+    grid-column: 1/span 1;
+    grid-row: 2/span 2;
+}
+
+.c{
+    grid-column:2/span 3 ;
+    grid-row:2/span 2;
+
+
+}
+.e{
+    grid-column:1/span 4;
+    background-image: url(pizza.jpg);
+}
+#container{
+    display: grid;
+    /*grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-columns: 1fr 1fr 1fr;*/
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows: 80%;
+    grid-auto-rows: no-repeat(600px,auto) ;
+    /*grid-column-gap: 30px;
+    grid-row-gap: 10px;*/
+    grid-template-rows:  no-repeat(80%,auto);
+    max-width: 50%;
+    margin:0 auto;
+    background-color:rgb(238, 238, 117);
+    grid-column-gap: 30px;
+    color:black;
+    
+}
+.navbar{
+  width: 100%;
+}

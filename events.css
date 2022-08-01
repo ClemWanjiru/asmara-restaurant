@@ -1,0 +1,33 @@
+body{
+    background-image: url(salad.webp);
+    background-size: cover;
+}
+#conta{
+        display: grid;
+        /*grid-template-columns: 50%,50%;
+        grid-template-columns: 1fr 1fr 1fr;*/
+        grid-auto-rows: no-repeat(600px,auto) ;
+        /*
+        grid-row-gap: 10px;*/
+        grid-template-rows: no-repeat(80%,auto);
+        max-width: 70%;
+        margin:0 auto;
+        background-color: maroon;
+        
+}
+#contain{
+    display: grid;
+    /*grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-columns: 1fr 1fr 1fr;*/
+    grid-template-columns: no-repeat(2,1fr);
+    grid-auto-rows: 80%;
+    grid-auto-rows: no-repeat(600px,auto) ;
+    /*grid-column-gap: 30px;
+    grid-row-gap: 10px;*/
+    grid-template-rows: no-repeat(80%,auto);
+    max-width: 65%;
+    margin:0 auto;
+    background-color: white;
+    grid-column-gap: 30px;
+    
+}   
